@@ -1,0 +1,3 @@
+.venv
+docs/build
+openscad_py/__pycache__

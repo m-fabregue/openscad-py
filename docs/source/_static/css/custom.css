@@ -1,0 +1,89 @@
+.display-none {
+    display: none;
+}
+
+.code-block-with-img {
+    display: flex;
+    margin: 1em 0;
+}
+
+.code-block-with-img > .title {
+    background: #202020;
+    color: #d0d0d0;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+    font-size: larger;
+}
+
+.code-block-with-img > .title > p {
+    text-align: center;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.code-block-with-img > .highlight-python {
+    margin: 0;
+    height: 100%;
+    display: flex;
+}
+
+.code-block-with-img > .highlight-python > .highlight {
+    border-radius: 0rem;
+}
+
+.code-block-with-img img {
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap {
+    gap: 1em;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.twocol {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.imgcode {
+    display: flex;
+    margin: 1em 0;
+}
+
+.imgcode img {
+    object-fit: contain;
+}
+
+.leftside {
+    display: flex;
+}
+
+.rightside {
+    display: flex;
+}
+
+/*.leftside {
+    width: 43%;
+    padding: 3px;
+    float: left;
+}
+  
+.rightside {
+    margin-left: 45%;
+}*/
