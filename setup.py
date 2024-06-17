@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 VERSION = "0.0.1"
 DESCRIPTION = "OpenSCAD Python API"
-LONG_DESCRIPTION = "A simple API to generate OpenSCAD code using Python."
+LONG_DESCRIPTION = "A simple library to generate OpenSCAD code using Python."
 
 setup(
     name="openscad-py",
